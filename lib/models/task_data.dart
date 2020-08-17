@@ -25,6 +25,21 @@ class TaskData extends ChangeNotifier {
     return _tasksDone;
   }
 
+  bool get initialCheckedValue {
+    int done = TaskData().tasksDone;
+    int total = TaskData().tasksCount;
+
+    if (done > 0) {
+      if (done == total) {
+        return true;
+      } else {
+        return false;
+      }
+    } else {
+      return false;
+    }
+  }
+
   void addTask(String key, bool isChecked) {
     tasksBox.put(key, '$isChecked');
     notifyListeners();
@@ -47,7 +62,6 @@ class TaskData extends ChangeNotifier {
     for (var index = 0; index < tasksBox.length; index++) {
       String key = tasksBox.keyAt(index);
       tasksBox.put(key, 'false');
-//      String value = tasksBox.get(key);
     }
     notifyListeners();
   }
@@ -71,18 +85,13 @@ class TaskData extends ChangeNotifier {
     int total = tasksCount;
 
     if (value) {
-//      print('value is $value');
-//      print('checked is $checked');
       if (done == total) {
         if (total > 0) {
           checked = true;
-//          print('done: $done, total: $total, checked: $checked, total: $total');
         }
       }
     } else {
       checked = false;
-//      print('value is $value');
-//      print('checked is $checked');
     }
   }
 }

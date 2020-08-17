@@ -57,7 +57,6 @@ class _ConfirmDeleteState extends State<ConfirmDelete> {
                   ),
                   onPressed: () {
                     checked = false;
-                    print('Confirm = $checked');
                     TaskData().deleteSelected();
                     Provider.of<TaskData>(context, listen: false)
                         .deleteSelected();

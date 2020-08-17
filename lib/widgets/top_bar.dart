@@ -21,7 +21,7 @@ class TopBar extends StatelessWidget {
           Row(
             children: <Widget>[
               Image.asset(
-                'images/Listie3.png',
+                'images/icon_listie.png',
                 width: 48.0,
                 height: 48.0,
               ),
@@ -53,7 +53,7 @@ class TopBar extends StatelessWidget {
             child: RaisedButton(
                 color: Colors.blueGrey,
                 elevation: 8.0,
-//                            padding: EdgeInsets.all(10.0),
+//              padding: EdgeInsets.all(10.0),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20.0),
 //                side: BorderSide(color: Colors.red),
