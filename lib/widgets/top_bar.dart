@@ -21,7 +21,7 @@ class TopBar extends StatelessWidget {
           Row(
             children: <Widget>[
               Image.asset(
-                'images/icon_listie.png',
+                'assets/images/icon_listie.png',
                 width: 48.0,
                 height: 48.0,
               ),

@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
       create: (context) => TaskData(),
       child: MaterialApp(
         title: 'listie_app',
+        debugShowCheckedModeBanner: false,
         home: MainScreen(),
       ),
     );
