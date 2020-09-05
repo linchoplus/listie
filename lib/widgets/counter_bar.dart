@@ -10,12 +10,12 @@ import 'package:listie_app/Screens/confirm_delete_screen.dart';
 import 'package:listie_app/settings/constants.dart';
 import 'package:listie_app/settings/vars.dart';
 
-class CounterBar1 extends StatefulWidget {
+class CounterBar extends StatefulWidget {
   @override
-  _CounterBar1State createState() => _CounterBar1State();
+  _CounterBarState createState() => _CounterBarState();
 }
 
-class _CounterBar1State extends State<CounterBar1> {
+class _CounterBarState extends State<CounterBar> {
   Box<String> tasksBox;
 
   @override

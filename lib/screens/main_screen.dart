@@ -29,7 +29,7 @@ class _TasksScreen extends State<MainScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             TopBar(),
-            CounterBar1(),
+            CounterBar(),
             TasksBar(),
           ],
         ),
