@@ -1,16 +1,13 @@
-# listie_app
+# Listie
 
-A new Flutter application.
+You can use it in the supermarket as a shopping list, or as a daily reminder.
+After each task you may just strikethrough the task or delete the task from the list.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- [Google Play](https://play.google.com/store/apps/details?id=com.linchoplus.listie_app)
+- [YouTube](https://youtu.be/QyKYCXgY_s0)
+- [Lincho Plus](https://www.linchoplus.com)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot:
+![Screenshot](screenshot.png)
